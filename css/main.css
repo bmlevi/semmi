@@ -1,0 +1,144 @@
+
+body{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fejlec {
+  padding: 40px;
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF  ;
+}
+
+.fejlec h1 {
+  font-size: 40px;
+}
+
+.navigaciossav {
+  overflow: hidden;
+  background-color: #DCDCDC;
+}
+
+.navigaciossav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 15px 25px;
+}
+
+.navigaciossav a.jobb {
+  float: right;
+}
+
+.navigaciossav a:hover {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+.rolam {
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 1px;
+}
+
+.rolambal {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+.kartya {
+  max-width: 320px;
+  margin: auto;
+}
+
+.cim{
+  text-align: center;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.rolamszoveg {
+  flex: 70%;
+  background-color: white;
+}
+.rolamtartalom{
+  max-width: 55rem;
+  margin: auto;
+}
+
+h2{
+  padding: 1rem;
+}
+
+.hobbi {
+  max-width: 1200px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.kepek_grid_racs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+  }
+ 
+.kep img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.elerhetoseg{
+font-size: 22px;
+margin: auto;
+text-align: center;
+padding: 10px;
+}
+.elerhetoseg a:hover {
+  text-decoration: underline;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  box-sizing: border-box;
+  grid-gap: 5%;
+  margin: 3rem 10%;
+}
+.vazlat{
+    display: block;
+    background-color: #DCDCDC;
+    padding: 1rem;
+}
+
+.vazlat h1{
+  letter-spacing: 3px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.vazlat img{
+  border-radius: 0.5rem;
+  min-width: 20%;
+  max-width: 100%;
+}
+
+.forrasok a:hover{
+text-decoration: underline;
+}
